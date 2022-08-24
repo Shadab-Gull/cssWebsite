@@ -1,0 +1,100 @@
+
+body{
+    margin: 0;
+    text-align: center;
+}
+h1{
+    margin-top: -120px;
+    font-size: 80px;
+    color: blue;
+}
+.p1{
+    font-size: 40px;
+    margin-top: -30px;
+    color: blueviolet;
+}
+    .top-container{
+        background-color: #B9FFF8;
+        position: relative;
+        padding-top: 200px;
+        /* width: 200px;
+        height: 200px;
+        /* border: solid 10px; */
+        /* padding: 20px;
+        border-color: black; */ 
+    }
+.middle-container{
+    padding-top: 40px;
+   background-color:#B9FFF8;
+   padding-bottom: 30px;
+}
+.bottom-container{
+    background-color: #FFCCB3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pro{
+    text-decoration: underline;
+}
+.bottomcloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.topcloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+.chilliimg{
+    width: 25%;
+     float: left; 
+    /*for wrapping text around certain element we use float */
+    margin-right: 20px;
+   
+}
+.computerimg{
+    width: 25%;
+    float: right;
+    margin-left: 20px;
+}
+/* .p2{
+    clear: left;
+} */
+/* for shifting paragrgh to the bottom of picture but heading remains at the same position as it were before i,e anti-float. */
+.p2{
+    font-size: 20px;
+}
+.heading{
+    color: blue;
+    font-size: 30px;
+}
+.heading:hover{
+    color: red;
+}
+h2{
+    color: blue;
+    padding-top: 30px; 
+    font-size: 50px;
+}
+.h2:hover{
+    color: black;
+}
+.btn{
+    background-color: #FFF38C;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+hr{
+
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 20%;
+    margin: 40px auto;
+    
+}
